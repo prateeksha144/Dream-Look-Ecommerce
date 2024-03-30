@@ -54,10 +54,14 @@ const Header = ({ activeHeading }) => {
   return (
     <>
       <div className={`${styles.section}`}>
-        <div className="hidden 800px:h-[40px] 800px:my-[20px] 800px:flex items-center justify-between">
+        <div className="hidden 1000px:h-[40px] 800px:my-[20px] 800px:flex items-center justify-between">
           <div>
             <Link to="/">
-              <img src="" alt="" />
+              <img
+                src="https://i.pinimg.com/originals/aa/54/98/aa5498d79167f31e8d1cf3fe48e4badc.png"
+                alt=""
+                className="sm:w-[180px] sm:h-[180px] md:w-[180px] md:h-[180px] lg:w-[180px] lg:h-[180px] xl:w-[180px] xl:h-[10px]"
+              />
             </Link>
           </div>
           {/* search box */}
