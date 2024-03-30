@@ -191,72 +191,59 @@ export const brandingData = [
 export const categoriesData = [
   {
     id: 1,
-    title: "Computers and Laptops",
+    title: "T-Shirts",
     subTitle: "",
     image_Url:
-      "https://cdn.shopify.com/s/files/1/1706/9177/products/NEWAppleMacbookProwithM1ProChip14InchLaptop2021ModelMKGQ3LL_A_16GB_1TBSSD_custommacbd.jpg?v=1659592838",
+      "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2xvdGhpbmd8ZW58MHx8MHx8fDA%3D",
   },
   {
     id: 2,
-    title: "cosmetics and body care",
+    title: "Track Pants",
     subTitle: "",
     image_Url:
-      "https://indian-retailer.s3.ap-south-1.amazonaws.com/s3fs-public/2021-07/kosme1.png",
+      "https://www.jiomart.com/images/product/original/rvtixeyk4p/urban-buccachi-men-multicolor-striped-polyester-pack-of-2-track-pants-xl-product-images-rvtixeyk4p-0-202307251258.jpg?im=Resize=(330,410)",
   },
   {
     id: 3,
-    title: "Accesories",
+    title: "Formal Shirts",
     subTitle: "",
     image_Url:
-      "https://img.freepik.com/free-vector/ordering-goods-online-internet-store-online-shopping-niche-e-commerce-website-mother-buying-babies-clothes-footwear-toys-infant-accessories_335657-2345.jpg?w=2000",
+      "https://asset1.cxnmarksandspencer.com/is/image/mands/OD_03_T11_2418K_ZZ_X_EC_0?$PLP_PRODUCT_IMAGE$&fmt=&fmt=pjpeg",
   },
   {
     id: 4,
-    title: "Cloths",
+    title: "Formal Pants",
     subTitle: "",
     image_Url:
-      "https://www.shift4shop.com/2015/images/industries/clothing/clothing-apparel.png",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVReYzShAJk0B0IrYTTubt__5JbWEUWqx1ZQ",
   },
   {
     id: 5,
-    title: "Shoes",
+    title: "Casual Shirts",
     subTitle: "",
     image_Url:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvBQPQMVNRd6TtDkGs2dCri0Y-rxKkFOiEWw&usqp=CAU",
+      "https://sslimages.shoppersstop.com/sys-master/images/h31/h57/30131102613534/S23MSH2180_WHITE_alt1.jpg_2000Wx3000H",
   },
   {
     id: 6,
-    title: "Gifts",
+    title: "Casual Pants",
     subTitle: "",
     image_Url:
-      "https://securecdn.pymnts.com/wp-content/uploads/2014/11/Gifts-Photo-700x489.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJENQle_RsIybj-tQX8PhmVDVqqw-gxoQulA",
   },
   {
     id: 7,
-    title: "Pet Care",
+    title: "Trousers",
     subTitle: "",
-    image_Url: "https://cdn.openpr.com/T/c/Tc15444071_g.jpg",
+    image_Url:
+      "https://qph.cf2.quoracdn.net/main-qimg-760c90202c05eacd01984a16371da9a8",
   },
   {
     id: 8,
-    title: "Mobile and Tablets",
+    title: "Jeans",
     subTitle: "",
     image_Url:
-      "https://st-troy.mncdn.com/mnresize/1500/1500/Content/media/ProductImg/original/mpwp3tua-apple-iphone-14-256gb-mavi-mpwp3tua-637986832343472449.jpg",
-  },
-  {
-    id: 9,
-    title: "Music and Gaming",
-    subTitle: "",
-    image_Url:
-      "https://static.vecteezy.com/system/resources/previews/011/996/555/original/3d-black-headphone-illustration-ecommerce-icon-png.png",
-  },
-  {
-    id: 10,
-    title: "Others",
-    subTitle: "",
-    image_Url:
-      "https://searchspring.com/wp-content/uploads/2022/10/Hero-Image-Platform-Others-2.png",
+      "https://images.lee.com/is/image/Lee/112343021-HERO?$KDP-LARGE2$",
   },
 ];
 
