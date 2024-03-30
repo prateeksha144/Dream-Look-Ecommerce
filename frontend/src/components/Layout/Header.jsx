@@ -98,7 +98,7 @@ const Header = ({ activeHeading }) => {
             ) : null}
           </div> */}
 
-          <div
+          {/* <div
             className={`${styles.button}`}
             style={{ backgroundColor: "#000" }}
           >
@@ -108,7 +108,7 @@ const Header = ({ activeHeading }) => {
                 <IoIosArrowForward className="ml-1" />
               </h1>
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
       <div
