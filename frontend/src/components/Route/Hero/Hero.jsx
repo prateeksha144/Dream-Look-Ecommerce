@@ -6,10 +6,10 @@ const Hero = () => {
   return (
     <div
       className={`relative min-h-[70vh] 800px:min-h-[80vh] w-full bg-no-repeat ${styles.noramlFlex}`}
-      // style={{
-      //   backgroundImage:
-      //     "url(https://www.pexels.com/photo/anonymous-stylish-man-during-shopping-in-fashion-store-3839432/)",
-      // }}
+      style={{
+        backgroundImage:
+          "url(https://www.pexels.com/photo/anonymous-stylish-man-during-shopping-in-fashion-store-3839432/)",
+      }}
     >
       <div className={`${styles.section} w-[90%] 800px:w-[60%]`}>
         <h1

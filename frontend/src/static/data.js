@@ -585,10 +585,11 @@ export const footerProductLinks = [
   },
   {
     name: "Careers",
-    link: "/carrers",
+    link: "/careers",
   },
   {
     name: "Store Locations",
+    link: "https://www.google.com/maps/place/Dream+Look+men's+fashion+showroom/@11.1207632,77.78934,17.87z/data=!4m6!3m5!1s0x3ba9796e782bbbef:0x9785772140d097f7!8m2!3d11.1209918!4d77.7896254!16s%2Fg%2F11ng0h_6l2?entry=ttu",
   },
   {
     name: "Our Blog",
