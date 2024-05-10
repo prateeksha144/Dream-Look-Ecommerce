@@ -6,7 +6,7 @@ const Sponsored = () => {
     <div
       className={`${styles.section} hidden sm:block bg-white py-0 px-5 mb-8 cursor-pointer rounded-xl`}
     >
-      <div className="flex justify-between w-full">
+      {/* <div className="flex justify-between w-full">
         <div className="flex items-start mt-4">
           <img
             src="https://logowik.com/content/uploads/images/270_polo_assn_logo.jpg"
@@ -42,7 +42,7 @@ const Sponsored = () => {
             alt=""
           />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

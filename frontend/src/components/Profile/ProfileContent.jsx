@@ -170,11 +170,11 @@ const ProfileContent = ({ active }) => {
       )}
 
       {/* Refund */}
-      {active === 3 && (
+      {/* {active === 3 && (
         <div>
           <AllRefundOrders />
         </div>
-      )}
+      )} */}
 
       {/* Track order */}
       {active === 5 && (

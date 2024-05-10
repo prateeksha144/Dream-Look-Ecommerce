@@ -8,12 +8,15 @@ const Hero = () => {
       className={`relative min-h-[70vh] 800px:min-h-[80vh] w-full bg-no-repeat ${styles.noramlFlex}`}
       style={{
         backgroundImage:
-          "url(https://www.pexels.com/photo/anonymous-stylish-man-during-shopping-in-fashion-store-3839432/)",
+          "url(https://i.pinimg.com/originals/69/3f/8b/693f8b66531187fc337778515587ac0c.jpg)",
+        backgroundSize: "cover",
+        backgroundPosition: "center top",
+        backgroundRepeat: "no-repeat",
       }}
     >
       <div className={`${styles.section} w-[90%] 800px:w-[60%]`}>
         <h1
-          className={`text-[35px] leading-[1.2] 800px:text-[50px] text-[#000] font-[600] capitalize`}
+          className={`text-[35px] leading-[1.2] 800px:text-[50px] text-[#000000] font-[600] capitalize`}
         >
           Elevate Your Style With Our Latest Collections.
         </h1>

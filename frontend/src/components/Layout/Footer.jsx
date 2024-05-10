@@ -1,4 +1,5 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 import {
   AiFillFacebook,
   AiFillInstagram,
@@ -15,25 +16,37 @@ import {
 const Footer = () => {
   return (
     <div className="bg-[#000] text-white">
-      <div className="grid grid-cols-1 sm:gird-cols-3 lg:grid-cols-4 gap-6 sm:px-8 px-5 py-16 sm:text-center">
+      <div className="grid grid-cols-1 sm:gird-cols-3 lg:grid-cols-4 gap-6 sm:px-8 px-5 py-10 sm:text-center">
         <ul className="px-5 text-center sm:text-start flex sm:block flex-col items-center">
           <img src="" alt="" style={{ filter: "brightness(0) invert(1)" }} />
           <br />
           <p>Step into Style: Discover Your Signature Look.</p>
           <div className="flex items-center mt-[15px]">
-            <AiFillFacebook size={25} className="cursor-pointer" />
-            <AiOutlineTwitter
+            <a
+              href="https://www.facebook.com/dreamlook.dreamlook.3/"
+              target="blank"
+            >
+              <AiFillFacebook size={25} className="cursor-pointer" />
+            </a>
+            {/* <AiOutlineTwitter
               size={25}
               style={{ marginLeft: "15px", cursor: "pointer" }}
-            />
-            <AiFillInstagram
-              size={25}
-              style={{ marginLeft: "15px", cursor: "pointer" }}
-            />
-            <AiFillYoutube
-              size={25}
-              style={{ marginLeft: "15px", cursor: "pointer" }}
-            />
+            /> */}
+            <a
+              href="https://www.instagram.com/dreamlooksivagiri/?hl=en"
+              target="blank"
+            >
+              <AiFillInstagram
+                size={25}
+                style={{ marginLeft: "15px", cursor: "pointer" }}
+              />
+            </a>
+            <a href="https://www.youtube.com/@DreamLookfashion" target="blank">
+              <AiFillYoutube
+                size={25}
+                style={{ marginLeft: "15px", cursor: "pointer" }}
+              />
+            </a>
           </div>
         </ul>
 
