@@ -7,6 +7,7 @@ import BestSellingPage from "../pages/BestSellingPage";
 import EventsPage from "../pages/EventsPage";
 import FAQPage from "../pages/FAQPage";
 import AboutPage from "../pages/AboutPage";
+import ContactPage from "../pages/ContactPage";
 import CheckoutPage from "../pages/CheckoutPage";
 import PaymentPage from "../pages/PaymentPage";
 import OrderSuccessPage from "../pages/OrderSuccessPage";
@@ -17,7 +18,7 @@ import SellerActivationPage from "../pages/SellerActivationPage";
 import ShopLoginPage from "../pages/ShopLoginPage";
 import OrderDetailsPage from "../pages/OrderDetailsPage";
 import TrackOrderPage from "../pages/TrackOrderPage";
-import UserInbox from "../pages/UserInbox.jsx";
+import Feedback from "../pages/Feedback.jsx";
 
 export {
   LoginPage,
@@ -27,6 +28,7 @@ export {
   ProductsPage,
   BestSellingPage,
   EventsPage,
+  ContactPage,
   FAQPage,
   AboutPage,
   CheckoutPage,
@@ -39,5 +41,5 @@ export {
   ShopLoginPage,
   OrderDetailsPage,
   TrackOrderPage,
-  UserInbox,
+  Feedback,
 };

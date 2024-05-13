@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Feedback from "./pages/Feedback.jsx";
 import {
   LoginPage,
   SignupPage,
@@ -11,6 +12,7 @@ import {
   EventsPage,
   FAQPage,
   AboutPage,
+  ContactPage,
   CheckoutPage,
   PaymentPage,
   OrderSuccessPage,
@@ -21,7 +23,6 @@ import {
   ShopLoginPage,
   OrderDetailsPage,
   TrackOrderPage,
-  UserInbox,
 } from "./routes/Routes.js";
 import {
   ShopDashboardPage,
@@ -110,6 +111,7 @@ const App = () => {
         <Route path="/best-selling" element={<BestSellingPage />} />
         <Route path="/events" element={<EventsPage />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/contact" element={<ContactPage />} />
         <Route path="/faq" element={<FAQPage />} />
         <Route
           path="/checkout"
@@ -129,10 +131,10 @@ const App = () => {
           }
         />
         <Route
-          path="/inbox"
+          path="/feedback"
           element={
             <ProtectedRoute>
-              <UserInbox />
+              <Feedback />
             </ProtectedRoute>
           }
         />
@@ -254,7 +256,7 @@ const App = () => {
           }
         />
         <Route
-          path="/dashboard-messages"
+          path="/dashboard-UserInbox"
           element={
             <SellerProtectedRoute>
               <ShopInboxPage />

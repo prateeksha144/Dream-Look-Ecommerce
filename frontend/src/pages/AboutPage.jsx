@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import Footer from "../components/Layout/Footer";
-import styles from "../styles/styles";
+import Header from "../components/Layout/Header";
 import { Link } from "react-router-dom";
 
 const AboutPage = () => {
   return (
     <div>
+      <Header />
       <About />
       <Footer />
     </div>
@@ -25,17 +26,12 @@ const About = () => {
 
   return (
     <div class="mt-0 px-4">
-      <div class="flex justify-center">
-        <Link to="/">
-          <img
-            src="https://i.pinimg.com/originals/aa/54/98/aa5498d79167f31e8d1cf3fe48e4badc.png"
-            alt=""
-            className="sm:w-[180px] sm:h-[180px] md:w-[180px] md:h-[180px] lg:w-[180px] lg:h-[180px] xl:w-[180px] xl:h-[10px]"
-          />
-        </Link>
-      </div>
+      <br />
+      <br />
+      <br />
+      <br />
       <h1 class="text-2xl font-bold mb-4">Welcome to Dream Look</h1>
-      <p class="mb-4">
+      <p class="mb-4 ml-4">
         At Dream Look, we believe that clothing is not just about fashion, it's
         about expressing your unique style and personality. Established with a
         passion for men's fashion, we curate a diverse collection of shirts,
@@ -44,7 +40,7 @@ const About = () => {
       </p>
       <br />
       <h1 class="text-2xl font-bold mb-4">Our Story</h1>
-      <p class="mb-4">
+      <p class="mb-4 ml-4">
         Dream Look began with a simple vision: to provide high-quality men's
         clothing that combines style, comfort, and affordability. Founded by
         [Founder's Name], our store quickly grew from a humble idea to a
@@ -54,7 +50,7 @@ const About = () => {
       </p>
       <br />
       <h1 class="text-2xl font-bold mb-4">Our Mission</h1>
-      <p class="mb-4">
+      <p class="mb-4 ml-4">
         At Dream Look, our mission is to empower men to look and feel their best
         every day. We understand that clothing is more than just fabric – it's a
         form of self-expression. That's why we meticulously select each piece in
@@ -63,7 +59,7 @@ const About = () => {
       </p>
       <br />
       <h1 class="text-2xl font-bold mb-4">What Sets Us Apart</h1>
-      <p class="mb-4">
+      <p class="mb-4 ml-4">
         What sets Dream Look apart is our unwavering dedication to excellence.
         From the moment you step into our store or browse our online catalog,
         you'll experience the difference in our attention to detail and
@@ -73,7 +69,7 @@ const About = () => {
       </p>
       <br />
       <h1 class="text-2xl font-bold mb-4">Our Promise</h1>
-      <p class="mb-4">
+      <p class="mb-4 ml-4">
         When you shop at Dream Look, you can shop with confidence, knowing that
         each item in our collection has been thoughtfully curated to meet our
         high standards of quality and style. We stand behind the products we
@@ -83,7 +79,7 @@ const About = () => {
       </p>
       <br />
       <h1 class="text-2xl font-bold mb-4">Join the Dream Look Family</h1>
-      <p class="mb-4">
+      <p class="mb-4 ml-4">
         We invite you to join the Dream Look family and experience the
         difference for yourself. Whether you're a fashion aficionado or simply
         looking to upgrade your wardrobe, we're here to help you discover your
