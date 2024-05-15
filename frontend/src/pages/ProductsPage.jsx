@@ -28,10 +28,7 @@ const ProductsPage = () => {
   return (
   <>
   {
-    isLoading ? (
-      <Loader />
-    ) : (
-      <div>
+     <div>
       <Header activeHeading={3} />
       <br />
       <br />
@@ -47,7 +44,6 @@ const ProductsPage = () => {
       </div>
       <Footer />
     </div>
-    )
   }
   </>
   );
